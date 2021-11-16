@@ -9,7 +9,8 @@ Heading level 1
 - lista 2
 - lista 3
 
--[x] kész
+- [ ] kész
+- [x] kész
 
 I just love **bold text**.
 
