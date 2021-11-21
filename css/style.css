@@ -1,0 +1,108 @@
+/*---------- base css -----------*/
+
+a {
+    color: #2c98f0;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.rounded-full {
+    border-radius: 100%;
+}
+
+.p-5 {
+    padding: 5rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.px-5 {
+    padding: 0 5rem;
+}
+
+.px-3 {
+    padding: 0 3rem;
+}
+
+.py-5 {
+    padding: 5rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-unstyled {
+    list-style-type: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*---------- base css end -----------*/
+
+/*---------- header -----------*/
+
+.main-sidebar {
+    background-color: #f2f3f7;
+}
+
+/*---------- header end -----------*/
+
+
+/*---------- main -----------*/
+.base-main {
+   
+}
+
+.main {
+    background-color: palevioletred;
+}
+
+
+.main-hero {
+    padding: 1rem;
+    min-height: 450px;
+    background: purple;
+}
+
+/*---------- main end -----------*/
