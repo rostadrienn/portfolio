@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Quicksand:wght@400;500&display=swap');
+
+/*
+
+font-family: 'Playfair Display', serif;   --- > Cimsorok
+font-family: 'Quicksand', sans-serif; ---> Általános szövegek
+
+*/
+
 /*---------- base css -----------*/
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
 
 a {
     color: #2c98f0;
@@ -18,6 +31,10 @@ a {
     justify-content: center;
 }
 
+.justify-end {
+    justify-content: end;
+}
+
 .flex-col {
     flex-direction: column;
 }
@@ -32,6 +49,10 @@ a {
 
 .rounded-full {
     border-radius: 100%;
+}
+
+.w-full {
+    width: 100%;
 }
 
 .p-5 {
@@ -66,6 +87,26 @@ a {
     margin-bottom: 5rem;
 }
 
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.mb-2 {
+    margin-bottom: 1.875rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
 .text-center {
     text-align: center;
 }
@@ -80,10 +121,40 @@ a {
 
 /*---------- base css end -----------*/
 
+
+/*---------- typography -----------*/
+
+.h4-elem {
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700;
+    font-size: 1.375rem;
+}
+
+.h1-elem {
+    font-size: 2rem;
+}
+
+@media all and (min-width: 992px) {
+    .h1-elem {
+        font-size: 3.75rem;
+    }
+}
+
+/*----------typography end -----------*/
+
 /*---------- header -----------*/
 
 .main-sidebar {
     background-color: #f2f3f7;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
 }
 
 /*---------- header end -----------*/
@@ -94,15 +165,22 @@ a {
    
 }
 
-.main {
-    background-color: palevioletred;
+.main 
+    {width: calc(100% - 330px);
 }
 
+.main-hero-article {
+    max-width: 50%;
+}
 
 .main-hero {
     padding: 1rem;
-    min-height: 450px;
-    background: purple;
+    min-height: 700px;
+    background-image: url("../img/hero.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
 
 /*---------- main end -----------*/
